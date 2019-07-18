@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="25dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Dialog.DialogStartTreal">
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode2"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode3"
+        android:textColor="@color/primaryDark" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode4"
+        android:textColor="@color/primaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode5" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode6" />
+
+    <TextView
+        android:id="@+id/dialog_start_treal_ms7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/massage_boss_mode7"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_start_treal_btn_active"
+            style="@style/bussinesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:text="@string/active"
+            android:textColor="@color/primarySuperDark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialog_start_treal_btn_cancel"
+            style="@style/bussinesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSlaveActivity">
+
+
+    <EditText
+        android:id="@+id/add_slave_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/hint_in_add_slave"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/add_slave_btn_ok"
+        style="@style/bussinesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="111dp"
+        android:text="@string/add_partner" />
+
+    <Button
+        android:id="@+id/add_slave_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/add_slave_btn_ok"
+        android:layout_marginEnd="20dp"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/add_slave_txt_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/add_slave_edit"
+        android:text="@string/check_key"
+        android:textAlignment="center"
+        android:textColor="@color/accentNormal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/add_slave_listSlaves"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:background="@color/gray10"
+        android:paddingTop="10dp" />
+
+</RelativeLayout>

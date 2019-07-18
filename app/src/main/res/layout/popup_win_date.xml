@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_popup_win_date_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:layout_weight="1"
+            android:background="@color/primarySuperDark"
+            android:text="@string/head_popup_win_date"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_popup_win_date_head_begin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/begin"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txt_popup_win_date_head_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/end"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_popup_win_date_begin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="08.08.08"
+            android:textAlignment="center"
+            android:textColor="@color/primaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_popup_win_date_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="08.08.08"
+            android:textAlignment="center"
+            android:textColor="@color/primaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_win_date_yesterday"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yesterday" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_today"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/today" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_tomorrow"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tomorrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_win_date_week"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/week" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_month"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/month" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_year"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/year" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_win_date_minus"
+            style="@style/bussinesButtonSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:text="@string/minus"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_day"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/day" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_plus"
+            style="@style/bussinesButtonSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:text="@string/plus"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_win_date_yesterday_more"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/yesterday_and_more" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_reset"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/x" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_today_more"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/today_and_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/primarySuperDark"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_popup_win_date_save"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btn_popup_win_date_cancel"
+            style="@style/bussButtSmallMarage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

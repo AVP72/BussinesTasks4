@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_button">5dp</dimen>
+    <dimen name="margin_dialog">16dp</dimen>
+    <dimen name="margin_item_task">10dp</dimen>
+    <dimen name="margin_btn_button">10dp</dimen>
+    <dimen name="margin_button">7dp</dimen>
+
+    <dimen name="margin_base_top_start">80dp</dimen>
+    <dimen name="margin_base_top_find">110dp</dimen>
+    <dimen name="recycler_bottom">40dp</dimen>
+</resources>

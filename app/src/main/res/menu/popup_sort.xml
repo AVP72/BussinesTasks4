@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/sort_by_into"
+        android:id="@+id/item_sort_into"/>
+    <item
+        android:title="@string/sort_by_srok"
+        android:id="@+id/item_sort_srok"/>
+    <item
+        android:title="@string/sort_by_slave"
+        android:id="@+id/item_sort_slave"/>
+    <item
+        android:title="@string/sort_by_status"
+        android:id="@+id/item_sort_status"/>
+    <item
+        android:title="@string/sort_by_task"
+        android:id="@+id/item_sort_task"/>
+    <item
+        android:title="@string/sort_by_last_edit"
+        android:id="@+id/item_sort_by_last_edit"/>
+    <item
+        android:title="@string/sort_by_date_status"
+        android:id="@+id/item_sort_by_date_status"/>
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_slave">
+        <item
+            android:id="@+id/item_menu_slave_filter"
+            android:title="@string/filter_slave_head_drawer"
+            >
+            <menu>
+                <item
+                    android:id="@+id/item_menu_slave_all"
+                    android:title="@string/allSlave"
+                    android:icon="@drawable/ic_drawer_slave_black_24dp"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/item_menu_setup_filter">
+        <item
+            android:title="@string/preset_filter"
+            >
+            <menu>
+                <item
+                    android:title="@string/reset_all_filter"
+                    android:id="@+id/reset_all_filter"
+                    android:icon="@drawable/ic_drawer_clear_black_24dp"
+                    />
+                <item
+                    android:title="@string/unlock_today"
+                    android:id="@+id/unlock_today"
+                    android:icon="@drawable/ic_drawer_event_black_24dp"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/item_menu_other">
+        <item android:title="@string/connect">
+            <menu>
+                <item
+                    android:title="@string/send_url_user_code"
+                    android:id="@+id/item_send_url_user_code"
+                    android:icon="@drawable/ic_person_add_black_24dp"/>
+                <item
+                    android:title="@string/send_url"
+                    android:id="@+id/item_send_url"
+                    android:icon="@drawable/ic_link_black_24dp"/>
+                <item
+                    android:title="@string/send_key"
+                    android:id="@+id/item_send_my_key"
+                    android:icon="@drawable/ic_drawer_send_black_24dp"/>
+                <item
+                    android:title="@string/send_gmail"
+                    android:id="@+id/item_send_my_gmail"
+                    android:icon="@drawable/ic_drawer_send_black_24dp"/>
+                <item
+                    android:title="@string/activ_device"
+                    android:id="@+id/item_activ_device"
+                    android:icon="@drawable/ic_tablet_android_black_24dp"/>
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/item_menu_about">
+        <item android:title="О продукте">
+            <menu>
+                <item
+                    android:title="@string/about"
+                    android:id="@+id/item_about_ver"
+                    android:icon="@drawable/ic_info_outline_black_24dp"/>
+                <item
+                    android:title="@string/about_user"
+                    android:id="@+id/item_about_user"
+                    android:icon="@drawable/ic_boss_fill_circle"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

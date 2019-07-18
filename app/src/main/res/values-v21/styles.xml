@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bussinesButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+
+    <style name="bussinesButtonSmall" parent="@style/Widget.AppCompat.Button.Small">
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+
+</resources>

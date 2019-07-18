@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray10"
+    tools:context=".EditSlaveActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70dp"
+        android:background="@color/gray5"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/edit_slave_displayName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/accentSuperDark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/slave_displayName"
+            android:textColor="@color/primarySuperDark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_slave_displayNameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/slave_displayName"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/slave_prof"
+            android:textColor="@color/primarySuperDark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_slave_prof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/slave_prof"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/slave_phone"
+            android:textColor="@color/primarySuperDark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_slave_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/slave_phone"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/edit_slave_btn_ok"
+            style="@style/bussinesButtonSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+    </LinearLayout>
+</FrameLayout>

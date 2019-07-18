@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_dialog"
+    android:paddingLeft="@dimen/margin_dialog"
+    android:paddingRight="@dimen/margin_dialog"
+    android:paddingTop="@dimen/margin_dialog"
+    tools:context="com.babyartsoft.bussinestasks1.ListActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_start_notation"
+        android:text="@string/text_reg_dialog" />
+
+    <Button
+        android:text="@string/reg_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_start_reg"
+        android:background="@color/accentNormal"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/button_start_autonom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_video"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+</LinearLayout>

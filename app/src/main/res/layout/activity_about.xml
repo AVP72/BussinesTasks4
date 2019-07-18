@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100"
+    tools:context=".Help.AboutActivity">
+
+    <TextView
+        android:id="@+id/about_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        app:srcCompat="@drawable/ic_logo512_pixel" />
+
+    <TextView
+        android:id="@+id/about_ver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="@string/about_ver" />
+
+    <TextView
+        android:id="@+id/about_go_to_play"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/about_to_google_play"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_politic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/politic" />
+
+</LinearLayout>

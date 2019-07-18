@@ -1,0 +1,253 @@
+<resources>
+    <!-- Главное -->
+    <string name="app_name">Assign tasks</string>
+    <string name="url_app">com.babyartsoft.bussinestasks1</string>
+    <string name="http">http://</string>
+
+    <!-- Основной список -->
+    <string name="no_data">empty list</string>
+    <string name="sort_by_into">Sort by enter</string>
+    <string name="sort_by_srok">Sort by deadline</string>
+    <string name="sort_by_slave">Sort by partner</string>
+    <string name="sort_by_status">Sort by status</string>
+    <string name="sort_by_task">Sort by task content</string>
+    <string name="sort_by_last_edit">Sort by date modified</string>
+    <string name="sort_by_date_status">Sort by date of status change</string>
+
+    <!-- Активности редактирования и ввода нового задания -->
+    <string name="enter_new_task">Enter new task</string>
+    <string name="get_slave">Select partner</string>
+    <string name="x">x</string>
+    <string name="plus">+</string>
+    <string name="dateSrok">Deadline:</string>
+    <string name="time">Time:</string>
+    <string name="minus">-</string>
+    <string name="plus2">++</string>
+    <string name="three_dot">...</string>
+    <string name="one_dot">.</string>
+    <string name="enter_time">Set</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Боковое меню -->
+    <string name="filter_and_menu">Filters and menus</string>
+    <string name="allSlave">All partners</string>
+    <string name="setNobody">Not assigned to anyone</string>
+    <string name="setForMy">Assigned to me</string>
+    <string name="addSlave">Add partner</string>
+    <string name="editSlave">Edit list of partners</string>
+    <string name="editBoss">To whom is connected</string>
+
+    <string name="preset_filter">Predefined filters</string>
+    <string name="reset_all_filter">Reset all filters</string>
+
+    <!-- Диалог регистрации -->
+    <string name="text_reg_dialog">
+        For the program to work correctly, you need internet access and registration on the server through a google account.\n
+        \n
+        Registration is free and takes place in one click.\n
+        \n
+    </string>
+
+    <string name="reg_google">Sign Up with Google Account</string>
+    <string name="demo_video">Demo on YouTube</string>
+
+    <string name="error_reg_title">Registration Error</string>
+    <string name="error_reg_massage">Check the Internet access and run the application again.</string>
+
+
+    <!-- Наименование статусов -->
+    <string name="status_pusto">Not started</string>
+    <string name="status_go">In progress</string>
+    <string name="status_galka">Done</string>
+    <string name="status_pause">Paused</string>
+    <string name="status_cancel">Canceled</string>
+    <string name="unlock">In work</string>
+    <string name="lock">Completed</string>
+    <string name="all_status">All statuses</string>
+    <string name="dop">More info</string>
+    <string name="error_read_entry">Record display error</string>
+    <string name="exit_without_save">Exit without saving</string>
+
+    <!-- Dialog info -->
+    <string name="dateInto">Date enter of task: </string>
+    <string name="dateLastEdit">Date last edit of task: </string>
+    <string name="dateDel">Date of removed: </string>
+    <string name="dateDelivery">Delivery date: </string>
+    <string name="dateRead">Date of reading: </string>
+    <string name="dateEditStatus">Date of status change: </string>
+    <string name="userEditStatus">Who changed the status: </string>
+
+    <string name="check_key">Partner not found, check the correctness of the key</string>
+    <string name="check_gmail">Partner not found, check the correctness of the gmail</string>
+    <string name="check_gmail_error">Failed, check the connection and try again.</string>
+    <string name="check_gmail_yes">Partner added to list</string>
+    <string name="check_self">Own access key does not fit</string>
+    <string name="check_zero">Empty line does not fit</string>
+
+    <!-- Dialog slave -->
+    <string name="slave_displayName">Name to display</string>
+    <string name="slave_prof">Position</string>
+    <string name="slave_phone">Phone number</string>
+
+    <!-- Dialog delete slave -->
+    <string name="delete_item">Delete record</string>
+    <string name="delete">Delete</string>
+    <string name="author_my">It is me</string>
+    <string name="not_read">Unread</string>
+    <string name="not_delivery">Not delivered yet</string>
+
+    <!-- Win popup_win_date -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="day">day</string>
+    <string name="yesterday_and_more">\u003C —   yesterday</string>
+    <string name="today_and_more">today   — \u003E</string>
+    <string name="head_popup_win_date">Choose a period</string>
+    <string name="begin">Start date</string>
+    <string name="end">End date</string>
+    <string name="infinity">\u221E</string>
+    <string name="period">period:</string>
+    <string name="periodStart">period: \u221E - \u221E</string>
+
+    <!-- String filter head -->
+    <string name="filter_string_start">filter</string>
+    <string name="limit_date">Dates limit reached</string>
+    <string name="not_correct_date">Start date must be less than end date.</string>
+    <string name="filter_slave_head_drawer">Filter by partners</string>
+    <string name="unlock_today">Actual today</string>
+
+    <!-- String send -->
+    <string name="connect">Communication</string>
+    <string name="send_key">Send my access code</string>
+    <string name="send_gmail">Send my Gmail</string>
+    <string name="send_url">Link to this app</string>
+    <string name="send_url_user_code">Link to connect me</string>
+    <string name="activ_device">Connected devices</string>
+
+    <!-- String massage -->
+    <string name="massage_new">Received a new task</string>
+    <string name="massage_edit_task">Changed the task</string>
+    <string name="massage_edit_status">The status has changed</string>
+    <string name="not_raed_task">Tasks not read</string>
+
+    <!-- String contex menu -->
+    <string name="status">status</string>
+    <string name="title_message_delete">Cannot delete this message.</string>
+    <string name="message1_delete">It’s not possible to delete a message by other user.</string>
+    <string name="message2_delete">Only the author can delete it.
+        Deletion is also possible if the connection with the partner is broken.</string>
+    <string name="message_btn_close">Close</string>
+    <string name="delete_task_title">Remove task?</string>
+    <string name="delete_task_message">Task will be permanently deleted.</string>
+    <string name="and_del_task">All tasks assigned by this user will be deleted as well.</string>
+
+    <!-- String оповещения -->
+    <string name="notif_update">Changes made to the task:</string>
+    <string name="notif_new">Received a new task:</string>
+    <string name="notif_status">The task status has changed:</string>
+    <string name="notif_delete">Task removed:</string>
+    <string name="notif_set_for_my">Assigned to me</string>
+    <string name="notif_order">Executed by partner</string>
+    <string name="made_stat">Who changed status:</string>
+
+    <string name="srok_end">Deadline:</string>
+    <string name="date">date</string>
+    <string name="before">time</string>
+    <string name="author">Author:</string>
+    <string name="note_info">Note</string>
+    <string name="empty">Empty</string>
+    <string name="not_note">no note</string>
+    <string name="recive_new_task">Received a new task:</string>
+    <string name="recive_edit_task">Changes made to the task:</string>
+    <string name="recive_del_task">Task removed:</string>
+    <string name="revice_error">crash on message, check changes</string>
+    <string name="channel_id">General</string>
+    <string name="name_channel_general">General</string>
+    <string name="txt_filter_start">--</string>
+    <string name="enter_find">Enter a query</string>
+
+    <string name="about">About app</string>
+    <string name="about_user">About user</string>
+    <string name="about_ver">Version</string>
+    <string name="about_to_google_play">go to Google Play</string>
+    <string name="politic">Privacy policy</string>
+
+    <!-- String диалоги об ошибках -->
+    <string name="boss_mode">Boss mode</string>
+    <string name="massage_boss_mode1">You are planning to activate the feature \"Boss\"</string>
+    <string name="massage_boss_mode2">This feature allows you to assign tasks</string>
+    <string name="massage_boss_mode3">Select Activate to access</string>
+    <string name="massage_boss_mode4">Free for 3 months</string>
+    <string name="massage_boss_mode5">After this period you can subscribe</string>
+    <string name="massage_boss_mode6">Only $5  per month</string>
+    <string name="massage_boss_mode7">Or continue to use for free, without this feature</string>
+    <string name="active">Activate</string>
+    <string name="podpiska">Subscribe to the feature \"Boss\"</string>
+    <string name="dialog_not_contact1">You have no active subscription and the trial period has ended.</string>
+    <string name="dialog_not_contact2">To enable the task assignment feature you need to subscribe.</string>
+    <string name="dialog_not_contact3">Internet access required to create a subscription.</string>
+    <string name="dialog_not_podpiska">Subscription not supported.</string>
+    <string name="dialog_is_error">Error reading subscription information. Try again.</string>
+    <string name="display_name">Display Name</string>
+    <string name="gmail_reg">gmail of registration</string>
+    <string name="date_reg_system">Registration date</string>
+    <string name="info_about_boss">\"Boss\" subscription information</string>
+    <string name="date_treal">Start date of trial period</string>
+    <string name="date_treal_end">End date of trial period</string>
+
+    <!-- String Abbout User -->
+    <string name="error_read_data">Error reading data</string>
+    <string name="not_activ">Feature not activated</string>
+    <string name="treal">Trial period activated</string>
+    <string name="treal_end">Trial period is over</string>
+    <string name="is_pay">Subscription activated</string>
+    <string name="is_not_pay">Subscription has expired or not activated.</string>
+    <string name="userNotReg">The user in the system did not have time to register, try again in a few seconds</string>
+
+    <!-- String Add Start Task -->
+    <string name="addStartTask1">
+        Welcome to Assign tasks.\n\n
+        Assign tasks to partner and \n
+        monitor their progress in real time.
+    </string>
+    <string name="addStartTask2">
+        In the drawer menu, select the Help button.\n\n
+        And learn how to create and assign tasks.\n
+        And also how to connect partners.
+    </string>
+    <string name="addStartTask3">
+        All comments and suggestions\n
+        can be sent to developers by mail:\n
+        htcpikarev@gmail.com
+    </string>
+    <string name="date_reg_device">Registration date:</string>
+
+    <string name="off_device">Do you disconnect the device?</string>
+    <string name="off_device_msg">Remove the device only if you are sure that it is not relevant.
+        After removing, the device will not be receiving notifications.</string>
+    <string name="it_is_current">This is the current device.</string>
+    <string name="current_no_delete">The current device cannot be removed.</string>
+    <string name="notReg">notReg</string>
+    <string name="add_new_slave">+ Add new partner</string>
+    <string name="help">Help</string>
+    <string name="help_about">General review</string>
+    <string name="help_add_slave_url">How to connect partner by reference</string>
+    <string name="help_add_slave_code">How to connect partner by code</string>
+    <string name="help_new_task">How to assign a new task</string>
+
+    <string name="you_not_reg">You have not registered</string>
+    <string name="add_slave">Connected partner</string>
+    <string name="skip">Skip</string>
+    <string name="close">Close</string>
+    <string name="show_on_start">Show at start</string>
+
+    <string name="hint_in_add_slave">Partner code or gmail</string>
+    <string name="add_partner">Add partner</string>
+    <string name="set_slave">Select partner:</string>
+</resources>

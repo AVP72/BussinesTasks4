@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_filter_off_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/reset_all_filter"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_unlock_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/unlock"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_lock_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/lock"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_go_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/status_go"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_galka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_galka_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_galka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/status_galka"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_pusto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_pusto_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_pusto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/status_pusto"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_pause_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/status_pause"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_popup_status_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_status_cancel_black_36dp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/txt_popup_status_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/status_cancel"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "1005907381790",
+    "firebase_url": "https://bussines-tasks.firebaseio.com",
+    "project_id": "bussines-tasks",
+    "storage_bucket": "bussines-tasks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005907381790:android:74e20165b3aa2894",
+        "android_client_info": {
+          "package_name": "com.babyartsoft.bussinestasks1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005907381790-f65njjc8pocdee4nkfo3s46hppq5n526.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babyartsoft.bussinestasks1",
+            "certificate_hash": "8e7f5159dd373a8fce6a6c3bd5eaccfb6b579783"
+          }
+        },
+        {
+          "client_id": "1005907381790-mg5581ljqj9tq1cfqfrqkb03cpg7vbr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babyartsoft.bussinestasks1",
+            "certificate_hash": "ccd20cd9f04b9e9ed634585f22dc492e8099028b"
+          }
+        },
+        {
+          "client_id": "1005907381790-rlq2qkljmp1cbit78m9glvngp1ndqokc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babyartsoft.bussinestasks1",
+            "certificate_hash": "ad93a5c936cdc15938f0bcb7a630895d5fd38e87"
+          }
+        },
+        {
+          "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwAGHewYMqrKXAA2IqCgNDMOngprfMtn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005907381790:android:9acf7f77a135369f",
+        "android_client_info": {
+          "package_name": "com.babyartsoft.powersetting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005907381790-qprd3b3fqh6gh1k62fedvd3s1l8l6gfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babyartsoft.powersetting",
+            "certificate_hash": "8e7f5159dd373a8fce6a6c3bd5eaccfb6b579783"
+          }
+        },
+        {
+          "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwAGHewYMqrKXAA2IqCgNDMOngprfMtn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005907381790:android:ce440d4fd2eea9a6",
+        "android_client_info": {
+          "package_name": "com.pikarevsoftware.newuserbusinestasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005907381790-e3av8md457o1b3e6k2oo4u3b3mogb920.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pikarevsoftware.newuserbusinestasks",
+            "certificate_hash": "8e7f5159dd373a8fce6a6c3bd5eaccfb6b579783"
+          }
+        },
+        {
+          "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwAGHewYMqrKXAA2IqCgNDMOngprfMtn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005907381790-otmr1hbcojij3jlbm33ib3v2e7r79jnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

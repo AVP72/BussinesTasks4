@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/head_main_base"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/primarySuperDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+
+        <ImageView
+            android:id="@+id/imgDrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="openDrawer"
+            app:srcCompat="@drawable/ic_drawer_menu_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imgStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="statusPopup"
+            app:srcCompat="@drawable/ic_filter_off_white_36dp" />
+
+        <ImageView
+            android:id="@+id/imgDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="datePopup"
+            app:srcCompat="@drawable/ic_date_black_36dp" />
+
+        <ImageView
+            android:id="@+id/imgFindTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="findTask"
+            app:srcCompat="@drawable/ic_find_white_36dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtStringFilter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray25"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/txt_filter_start"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

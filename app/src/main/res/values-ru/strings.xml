@@ -1,0 +1,251 @@
+<resources>
+    <!-- Главное -->
+    <string name="app_name">Органайзер поручений</string>
+    <string name="url_app">com.babyartsoft.bussinestasks1</string>
+    <string name="http">http://</string>
+
+    <!-- Основной список -->
+    <string name="no_data">Нет записей</string>
+    <string name="sort_by_into">Сортировка по поступлению</string>
+    <string name="sort_by_srok">Сортировка по сроку</string>
+    <string name="sort_by_slave">Сортировка по сотруднику</string>
+    <string name="sort_by_status">Сортировка по статусу</string>
+    <string name="sort_by_task">Сортировка по алфавиту</string>
+    <string name="sort_by_last_edit">Сортировка по дате изменения</string>
+    <string name="sort_by_date_status">Сортировка по дате статуса</string>
+
+    <!-- Активности редактирования и ввода нового задания -->
+    <string name="enter_new_task">Введите новое поручение</string>
+    <string name="get_slave">Выберите сотрудника</string>
+    <string name="x">x</string>
+    <string name="plus">+</string>
+    <string name="dateSrok">Срок выполнения:</string>
+    <string name="time">Время:</string>
+    <string name="minus">-</string>
+    <string name="plus2">++</string>
+    <string name="three_dot">...</string>
+    <string name="one_dot">.</string>
+    <string name="enter_time">Задать время</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отменить</string>
+    <string name="ok">ok</string>
+
+    <!-- Боковое меню -->
+    <string name="filter_and_menu">Фильтры и меню</string>
+    <string name="allSlave">Все сотрудники</string>
+    <string name="setNobody">Не назначено никому</string>
+    <string name="setForMy">Назначено мне</string>
+    <string name="addSlave">Добавить сотрудников</string>
+    <string name="editSlave">Редактировать сотрудников</string>
+    <string name="editBoss">К кому подключен</string>
+
+    <string name="preset_filter">Настроенные фильтры</string>
+    <string name="reset_all_filter">Сброс всех фильтров</string>
+
+    <!-- Диалог регистрации -->
+    <string name="text_reg_dialog">
+        Для корректной работы программы нужны доступ в Интернет и регистрация на сервере через аккаунт google.\n
+        \n
+        Регистрация бесплатная и проходит в один клик.\n
+        \n
+    </string>
+
+    <string name="reg_google">Регистрация через аккаунт Google</string>
+    <string name="demo_video">Демонстрационный ролик</string>
+
+    <string name="error_reg_title">Ошибка при регистрации</string>
+    <string name="error_reg_massage">Проверьте доступ в Интернет и запустите приложение еще раз.</string>
+
+
+    <!-- Наименование статусов -->
+    <string name="status_pusto">Назначено</string>
+    <string name="status_go">Выполняется</string>
+    <string name="status_galka">Выполнено</string>
+    <string name="status_pause">Приостановлено</string>
+    <string name="status_cancel">Отменено</string>
+    <string name="exit_without_save">Выйти без сохранения</string>
+    <string name="error_read_entry">Ошибка отображения записи</string>
+    <string name="dop">Дополнительно</string>
+    <string name="unlock">Актуальные</string>
+    <string name="lock">Завершенные</string>
+    <string name="all_status">Все статусы</string>
+
+    <!-- Dialog info -->
+    <string name="dateInto">Дата поступления заявки: </string>
+    <string name="dateLastEdit">Дата последнего изменения: </string>
+    <string name="dateDel">Дата удаления: </string>
+    <string name="dateDelivery">Дата доставки: </string>
+    <string name="dateRead">Дата прочтения: </string>
+    <string name="dateEditStatus">Дата изменения статуса: </string>
+    <string name="userEditStatus">Кто изменил статус: </string>
+
+    <string name="check_key">Партнер не найден, проверьте правильность ключа</string>
+    <string name="check_gmail">Партнер не найден, проверьте правильность gmail</string>
+    <string name="check_gmail_error">Сбой, проверьте соединение и попробуйте еще раз</string>
+    <string name="check_gmail_yes">Партнер добавлен в список</string>
+    <string name="check_self">Собственный ключ доступа не подходит</string>
+    <string name="check_zero">Пустая строка не подходит</string>
+
+    <!-- Dialog slave -->
+    <string name="slave_displayName">Имя для отображения</string>
+    <string name="slave_prof">Должность</string>
+    <string name="slave_phone">Номер телефона</string>
+
+    <!-- Dialog delete slave -->
+    <string name="delete_item">Удалить запись</string>
+    <string name="delete">Удалить</string>
+    <string name="author_my">Автор, т.е. я</string>
+    <string name="not_read">Не прочитано</string>
+    <string name="not_delivery">Не доставлено</string>
+
+    <!-- Win popup_win_date -->
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="day">день</string>
+    <string name="yesterday_and_more">\u003C —   вчера</string>
+    <string name="today_and_more">сегодня   — \u003E</string>
+    <string name="head_popup_win_date">Выберите период</string>
+    <string name="begin">Начало</string>
+    <string name="end">Конец</string>
+    <string name="infinity">\u221E</string>
+    <string name="period">период:</string>
+    <string name="periodStart">период: \u221E - \u221E</string>
+
+    <!-- String filter head -->
+    <string name="filter_string_start">фильтр</string>
+    <string name="limit_date">Достигнута предельная дата</string>
+    <string name="not_correct_date">Дата начала должна быть меньше даты конца</string>
+    <string name="filter_slave_head_drawer">Фильтр по сотрудникам</string>
+    <string name="unlock_today">Актуальные сегодня</string>
+
+    <!-- String send -->
+    <string name="connect">Подключение</string>
+    <string name="send_key">Отправить мой код доступа</string>
+    <string name="send_gmail">Отправить мой Gmail</string>
+    <string name="send_url">Ссылка на приложение</string>
+    <string name="send_url_user_code">Ссылка на подключение</string>
+    <string name="activ_device">Подключенные устройства</string>
+
+    <!-- String massage -->
+    <string name="massage_new">Поступило новое задание</string>
+    <string name="massage_edit_task">Изменено задание</string>
+    <string name="massage_edit_status">Изменился статус</string>
+    <string name="not_raed_task">Не прочитанных заданий</string>
+
+    <!-- String contex menu -->
+    <string name="status">статус</string>
+    <string name="title_message_delete">Нельзя удалить это сообщение</string>
+    <string name="message1_delete">Удалить сообщение автором которого является другой нельзя.</string>
+    <string name="message2_delete">Удалить может автор. Удаление также возможно при разрыве связи с сотрудником.</string>
+    <string name="message_btn_close">закрыть</string>
+    <string name="delete_task_title">Удалить запись?</string>
+    <string name="delete_task_message">Запись удаляется без возможности восстановления</string>
+    <string name="and_del_task">Так же будут удалены все задания, назначенные этим пользователем</string>
+
+    <!-- String оповещения -->
+    <string name="notif_update">Внесены изменения в задание:</string>
+    <string name="notif_new">Поступило новое задание:</string>
+    <string name="notif_status">Изменился статус:</string>
+    <string name="notif_delete">Удалена запись:</string>
+    <string name="notif_set_for_my">Назначено мне</string>
+    <string name="notif_order">Отчет о выполнении</string>
+    <string name="made_stat">Кем изменен статус:</string>
+
+    <string name="srok_end">Срок исполнения:</string>
+    <string name="date">дата</string>
+    <string name="before">до</string>
+    <string name="author">Автор:</string>
+    <string name="note_info">Примечание</string>
+    <string name="empty">Нет задания</string>
+    <string name="not_note">нет примечания</string>
+    <string name="recive_new_task">Поступило новое задание:</string>
+    <string name="recive_edit_task">Внесены изменения в задание:</string>
+    <string name="recive_del_task">Удалено задание:</string>
+    <string name="revice_error">сбой при поступлении оповещения, проверьте изменения</string>
+    <string name="channel_id">General</string>
+    <string name="name_channel_general">Основная</string>
+    <string name="txt_filter_start">--</string>
+    <string name="enter_find">Введите запрос</string>
+
+    <string name="about">Описание</string>
+    <string name="about_user">О пользователе</string>
+    <string name="about_ver">Версия</string>
+    <string name="about_to_google_play">go to Google Play</string>
+    <string name="politic">Политика конфиденциальности</string>
+
+    <!-- String диалоги об ошибках -->
+    <string name="boss_mode">Режим Босс</string>
+    <string name="massage_boss_mode1">Вы планируете активировать функцию \"Босс\"</string>
+    <string name="massage_boss_mode2">Эта функция позволяет назначать задания</string>
+    <string name="massage_boss_mode3">Выберите Активировать, чтобы получить доступ</string>
+    <string name="massage_boss_mode4">Бесплатно в течении 3-х месяцев</string>
+    <string name="massage_boss_mode5">После этого периода можно будет оформить подписку</string>
+    <string name="massage_boss_mode6">Всего за 69 рублей в месяц</string>
+    <string name="massage_boss_mode7">Или продолжить пользоваться бесплатно, без этой функции</string>
+    <string name="active">Активировать</string>
+    <string name="podpiska">Подписка на функцию \"Босс\"</string>
+    <string name="dialog_not_contact1">У Вас нет активной подписки и пробный период закончился.</string>
+    <string name="dialog_not_contact2">Чтобы подключить функцию назначения заданий нужно оформить подписку.</string>
+    <string name="dialog_not_contact3">Для создания подписки необходим доступ в Интернет.</string>
+    <string name="dialog_not_podpiska">Подписка не поддерживается.</string>
+    <string name="dialog_is_error">Ошибка при прочтении информации о подписке. Попробуйте еще раз.</string>
+    <string name="display_name">Отображаемое имя пользователя</string>
+    <string name="gmail_reg">gmail регистрации</string>
+    <string name="date_reg_system">Дата регистрации в системе</string>
+    <string name="info_about_boss">Информация о подписке на функцию \"Босс\"</string>
+    <string name="date_treal">Дата начала пробного периода</string>
+    <string name="date_treal_end">Дата окончания пробного периода</string>
+
+    <!-- String Abbout User -->
+    <string name="error_read_data">Ошибка чтения данных</string>
+    <string name="not_activ">Функция не активирована</string>
+    <string name="treal">Пробный период активирован</string>
+    <string name="treal_end">Пробный период закончился</string>
+    <string name="is_pay">Подписка активирована</string>
+    <string name="is_not_pay">Подписка закончилась или не активирована</string>
+    <string name="userNotReg">Пользователь в системе не успел зарегистрироваться, повторите попытку через несколько секунд</string>
+
+    <!-- String Add Start Task -->
+    <string name="addStartTask1">
+        Добро пожаловать в Органайзер поручений.\n\n
+        Назначайте поручения сотрудникам и \n
+        контролируйте ход их выполнения в реальном времени.
+    </string>
+    <string name="addStartTask2">
+        В боковом меню выберите кнопку Справка.\n\n
+        И узнайте, как создавать и назначать поручения.\n
+        А также как подключить сотрудников.
+    </string>
+    <string name="addStartTask3">
+        Все замечания и предложения \n
+        можно направлять разработчикам на почту:\n
+        htcpikarev@gmail.com
+    </string>
+    <string name="date_reg_device">Дата регистрации:</string>
+
+    <string name="off_device">Отключить устройство?</string>
+    <string name="off_device_msg">Удаляйте устройство, только если Вы уверены, что оно не используется.
+        После удаления устройcтво не будет получать уведомления</string>
+    <string name="it_is_current">Это текущая запись</string>
+    <string name="current_no_delete">Текущую запись удалять нельзя</string>
+    <string name="notReg">notReg</string>
+    <string name="add_new_slave">+ Добавить нового сотрудника</string>
+    <string name="help">Справка</string>
+    <string name="help_about">Общий обзор</string>
+    <string name="help_add_slave_url">Как подключить сотрудника по ссылке</string>
+    <string name="help_add_slave_code">Как подключить сотрудника по коду</string>
+    <string name="help_new_task">Как назначить новое поручение</string>
+
+    <string name="you_not_reg">Вы не прошли регистрацию</string>
+    <string name="add_slave">Подключен партнер</string>
+    <string name="skip">Пропустить</string>
+    <string name="close">Закрыть</string>
+    <string name="show_on_start">Показыват при старте</string>
+    <string name="hint_in_add_slave">Код доступа или gmail сюда</string>
+    <string name="add_partner">Подключить партнера</string>
+    <string name="set_slave">Выбрать сотрудника:</string>
+</resources>
